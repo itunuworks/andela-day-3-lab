@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/itunuworks/andela-day-3-lab/issues"
   },
-  "homepage": "https://github.com/itunuworks/andela-day-3-lab#readme"
+  "homepage": "https://github.com/itunuworks/andela-day-3-lab#readme",
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  }
 }
