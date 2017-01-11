@@ -1,9 +1,9 @@
 'use strict'
 
 var thisApp = require('../app/main.js');
-var oneToTwenty = thisApp.toTwenty;
-var twoToForty = thisApp.toTwenty;
-var tenToOneThousand = thisApp.toOneThousand;
+var oneToTwenty = thisApp.oneToTwenty;
+var twoToForty = thisApp.twoToForty;
+var tenToOneThousand = thisApp.tenToOneThousand;
 
 describe('Binary Search to traverse an ordered list, effectively', function() {
   describe('Populate the arrays with valid content', function() {
