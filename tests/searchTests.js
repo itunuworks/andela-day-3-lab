@@ -93,7 +93,6 @@ describe('Binary Search to traverse an ordered list, effectively', function() {
 */
 Array.prototype.indexOf = function () {
   throw new Error('You are not allowed to use the indexOf function');
-  console.log ("I am here ohh")
 };
 
 var oneToTwenty = [].toTwenty();
