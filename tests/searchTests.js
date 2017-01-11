@@ -1,9 +1,6 @@
 'use strict'
 
-var thisApp = require('../app/main.js');
-var oneToTwenty = thisApp.oneToTwenty;
-var twoToForty = thisApp.twoToForty;
-var tenToOneThousand = thisApp.tenToOneThousand;
+require('../app/main.js');
 
 describe('Binary Search to traverse an ordered list, effectively', function() {
   describe('Populate the arrays with valid content', function() {
@@ -90,3 +87,15 @@ describe('Binary Search to traverse an ordered list, effectively', function() {
     });
   });
 });
+
+/*
+* Block the indexOf Array function
+*/
+Array.prototype.indexOf = function () {
+  throw new Error('You are not allowed to use the indexOf function');
+  console.log ("I am here ohh")
+};
+
+var oneToTwenty = [].toTwenty();
+var twoToForty = [].toForty();
+var tenToOneThousand = [].toOneThousand();
